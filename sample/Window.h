@@ -58,7 +58,7 @@ public:
         //フレームバッファ全体をビューポートに設定する
         glViewport(0, 0, fbWidth, fbHeight);
         //このインスタンスのthisポインタを得る
-        Window *const instance(static_cast<window *>(glfwGetWindowUserPointer(window)));
+        Window *const instance(static_cast<Window *>(glfwGetWindowUserPointer(window)));
         if(instance != NULL){
             //このインスタンスが保持する縦横比を更新する
             instance->aspect = static_cast<GLfloat>(width)/static_cast<GLfloat>(height);
