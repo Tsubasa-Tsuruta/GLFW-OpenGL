@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E6591BB12370099C009A3E2E /* Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
 		E6591BB22370281A009A3E2E /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		E66560252376B2D60028A37D /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		E68099012364A367005F0CCC /* sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sample; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68099042364A367005F0CCC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E6A90D4823672B9B00D1FFF4 /* point.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = point.vert; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				E6591BB22370281A009A3E2E /* Shape.h */,
 				E6A90D4823672B9B00D1FFF4 /* point.vert */,
 				E6A90D4923672BEC00D1FFF4 /* point.frag */,
+				E66560252376B2D60028A37D /* test.txt */,
 			);
 			path = sample;
 			sourceTree = "<group>";
