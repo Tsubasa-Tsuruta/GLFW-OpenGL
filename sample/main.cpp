@@ -212,7 +212,7 @@ int main(){
         // シェーダプログラムの使用開始
         glUseProgram(program);
         //uniform変数に値を設定する
-        glUniform1f(aspectLoc, window.getAspect());
+        glUniform1f(aspectLoc, window->getAspect());
         //図形を描画する
         shape->draw();
         //カラーバッファを入れ替える
